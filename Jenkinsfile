@@ -3,7 +3,7 @@
 
 def repoName = "spring-petclinic"
 def regRepo = "adop-cartridge-java-regression-tests"
-
+//test
 pipeline {
     agent { label 'java8' }
     environment{
